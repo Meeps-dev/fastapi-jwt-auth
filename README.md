@@ -105,6 +105,8 @@ jwt-auth-system/
 └── README.md
 
 🔐 Authentication Flow
+
+
 1️⃣ Register
 POST /auth/register
 
@@ -193,6 +195,7 @@ pytest -v
 Each test runs against a fresh database state to ensure isolation and reliability.
 
 ⚙️ Setup & Run Locally
+
 1️⃣ Clone the Repository
 git clone <your-repo-url>
 cd jwt-auth-system
@@ -242,7 +245,6 @@ Rate limiting
 
 Email verification
 
-HTTPBearer
 
 👨‍💻 Author
 
